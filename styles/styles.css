@@ -6,7 +6,7 @@
 
 body {
     /*font-family: sans-serif;*/
-    font-family: Rubik,Lato,lucida grande,lucida sans unicode,Tahoma,Sans-Serif;
+    font-family: Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, Sans-Serif;
 }
 
 #main-container {
@@ -14,41 +14,40 @@ body {
     flex-direction: column;
     align-content: space-around;
     border: solid red;
+/*    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+    background-blend-mode: normal,color-burn;*/
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
 }
 
 #banner-container {
     display: flex;
-    height: 120px;
+    height: 181px;
     border: solid mediumpurple;
-}
-
-
-#nav-bar-container {
-    height: 47px;
-    border: solid darkorange;
 }
 
 #nav-bar {
     display: flex;
     flex-direction: row;
-
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-evenly;
     list-style-type: none;
-    border: solid cornflowerblue;
+    height: 42px;
+    background-color: #191919;
 }
 
 #nav-bar a {
     padding-left: 42px;
     padding-right: 42px;
     font-size: 19px;
-    color: black;
+    color: #fff;
     text-decoration: none;
-    border: solid yellow;
+    transition-duration: 0.5s;
 }
 
 #nav-bar a:hover {
-    color: #1abc9c;
-    background-color: aqua;
+    color: #1cd7b5;
+
 }
 
 #content-container {
