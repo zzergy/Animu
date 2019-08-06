@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="">
+    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Added Sticky Navigation bar function">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ZERG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ZERG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animu Logo/Animu logo transparent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animu Logo/Animu logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animu Logo/Animu logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animu Logo/Final.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animu Logo/desktop.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/dictionaries/Zergy.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1P19hTIeR16m490I2e4w0oQrFGN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +86,7 @@
       <updated>1565008710751</updated>
       <workItem from="1565008711953" duration="5641000" />
       <workItem from="1565030858552" duration="2474000" />
-      <workItem from="1565081031818" duration="3266000" />
+      <workItem from="1565081031818" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="Navigation bar Update">
       <created>1565083787179</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565083787179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Sticky Navigation bar function">
+      <created>1565084386725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565084386725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Navigation bar Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation bar Update" />
+    <MESSAGE value="Added Sticky Navigation bar function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sticky Navigation bar function" />
   </component>
 </project>
