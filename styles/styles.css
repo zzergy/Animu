@@ -94,3 +94,6 @@ body {
     border: 1px solid #939393;
     float: left;
 }
+ .active {
+     color: #8f86f3;
+ }

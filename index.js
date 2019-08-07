@@ -11,17 +11,15 @@ function stickyNav() {
 }
 
 
-//TODO Make it so that when a page is clicked the name of the page on the nav bar is purple.
-/*
+//TODO Make it so that when a link is active the color of the button in the nav bar is changed.
 const homeButtonElement = document.getElementById('home-button');
 const animeWikiButtonElement = document.getElementById('anime-wiki-button');
 const wallpapersButtonElement = document.getElementById('wallpapers-button');
 const siteInfoButtonElement = document.getElementById('site-info-button');
 
-navigationBar.addEventListener('click', function () {
-    if (homeButtonElement.style.color === '#8f86f3'){
+let allButtons = document.querySelectorAll('nav-bar');
 
-    }
-});
-
- */
+for (let i = 0; i < allButtons.length; i++) {
+    allButtons[i].addEventListener('click', function () {
+    });
+}
