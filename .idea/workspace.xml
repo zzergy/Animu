@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Added Banner">
+    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Homepage UI, Navigation Bar Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/anime-wiki.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/site-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wallpapers.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
@@ -38,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhoneContacts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -88,7 +85,9 @@
       <updated>1565008710751</updated>
       <workItem from="1565008711953" duration="5641000" />
       <workItem from="1565030858552" duration="2474000" />
-      <workItem from="1565081031818" duration="7654000" />
+      <workItem from="1565081031818" duration="10676000" />
+      <workItem from="1565176484517" duration="7117000" />
+      <workItem from="1565252792468" duration="7559000" />
     </task>
     <task id="LOCAL-00001" summary="Navigation bar Update">
       <created>1565083787179</created>
@@ -118,7 +117,35 @@
       <option name="project" value="LOCAL" />
       <updated>1565090276703</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pages Update">
+      <created>1565091387505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565091387505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Pages Update">
+      <created>1565091446324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565091446324</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Navigation Bar tweaks">
+      <created>1565093847553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565093847553</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Minor changes">
+      <created>1565182363339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565182363339</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +169,10 @@
     <MESSAGE value="Added Sticky Navigation bar function" />
     <MESSAGE value="Added Banner" />
     <MESSAGE value="Banner Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banner Update" />
+    <MESSAGE value="Pages Update" />
+    <MESSAGE value="Navigation Bar tweaks" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Homepage UI, Navigation Bar Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage UI, Navigation Bar Update" />
   </component>
 </project>

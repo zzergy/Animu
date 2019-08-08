@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- TODO Make the site size responsive!
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
     <link rel="stylesheet" href="styles/styles.css">
     <title>Animu-Home Page</title>
 </head>
@@ -9,14 +12,14 @@
 <div id="main-container">
 
     <div id="banner-container">
-        <img id="banner-img" src="img/banner-final.png" alt="banner">
+        <img id="banner-img" src="img/bannerCatto.png" alt="banner">
     </div>
-        <ul id="nav-bar">
-            <li><a id="home-button" href="index.html">Home</a></li>
-            <li><a id="anime-wiki-button" href="html/anime-wiki.html">Anime Wiki</a></li>
-            <li><a id="wallpapers-button" href="html/wallpapers.html">Wallpapers</a></li>
-            <li><a id="site-info-button" href="html/site-info.html">Site Info</a></li>
-        </ul>
+    <ul id="nav-bar">
+        <li><a id="home-button" href="index.html">Home</a></li>
+        <li><a id="anime-wiki-button" href="html/anime-wiki.html">Anime Wiki</a></li>
+        <li><a id="wallpapers-button" href="html/wallpapers.html">Wallpapers</a></li>
+        <li><a id="site-info-button" href="html/site-info.html">Site Info</a></li>
+    </ul>
 
     <div id="content-container">
         <div class="anime-listing">
@@ -48,18 +51,26 @@
             <span>Anime 1</span>
             <button></button>
         </div>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
     </div>
 
-    <div class="pagination">
-        <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a class="active" href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">&raquo;</a>
-    </div>
+
+
+    <footer>
+        <div id="footer-container">
+            <span>© 2019 Zergy</span>
+        </div>
+    </footer>
 </div>
 
 <script src="index.js"></script>

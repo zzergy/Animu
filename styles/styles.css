@@ -14,16 +14,15 @@ body {
 #main-container {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
-    border: solid black;
-    height: 165vh;
-    /*    background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
-        background-blend-mode: normal,color-burn;*/
+    max-height: 100%;
+    max-width: 100%;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+
 }
 
 #banner-container {
-    height: 212px;
+    height: 582px;
 }
 
 #banner-img {
@@ -38,23 +37,24 @@ body {
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
-    height: 48px;
-    background-color: #191919;
-    box-shadow: 0 10px 18px 0 rgba(25, 25, 25, 0.35);
+    height: 58px;
+    background-color: #C0CDD6;
+    box-shadow: 0 0 38px -18px rgba(23,23,23,1);
 }
 
 #nav-bar a {
     padding-left: 42px;
     padding-right: 42px;
-    font-size: 19px;
-    color: #fff;
+    font-size: 22px;
+    color: #242424;
     text-decoration: none;
     transition-duration: 0.5s;
     outline: none;
 }
 
 #nav-bar a:hover {
-    color: #8f86f3;
+    color: #D11117;
+
 }
 
 .sticky {
@@ -70,8 +70,8 @@ body {
     flex-wrap: wrap;
     align-content: space-around;
     align-self: center;
-    width: 1262px;
-    height: 129vh;
+    width: 141vh;
+    height: 128vh;
 }
 
 .anime-listing {
@@ -94,4 +94,16 @@ body {
 }
  .active {
      color: #8f86f3;
+ }
+
+ #footer-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 43px;
+    background-color: #6d6d6d;
+ }
+
+ #footer-container span {
+     color: whitesmoke;
  }
