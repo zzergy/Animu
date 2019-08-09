@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     /*font-family: sans-serif;*/
     font-family: Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, Sans-Serif;
 }
 
+/*
+Styles for the default resolution
+ */
 #main-container {
     display: flex;
     flex-direction: column;
@@ -37,7 +42,7 @@ body {
     list-style-type: none;
     height: 58px;
     background-color: #C0CDD6;
-    box-shadow: 0 0 38px -18px rgba(23,23,23,1);
+    box-shadow: 0 0 38px -18px rgba(23, 23, 23, 1);
 }
 
 #nav-bar a {
@@ -70,6 +75,7 @@ body {
     align-self: center;
     width: 141vh;
     height: 128vh;
+
 }
 
 .anime-listing {
@@ -81,6 +87,7 @@ body {
 .pagination {
     align-self: center;
     width: 352px;
+    margin-bottom: 10px;
 }
 
 .pagination a {
@@ -90,18 +97,84 @@ body {
     border: 1px solid #939393;
     float: left;
 }
- .active {
-     color: #8f86f3;
- }
 
- #footer-container {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 43px;
+.active {
+    color: #8f86f3;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
     background-color: #6d6d6d;
- }
 
- #footer-container span {
-     color: whitesmoke;
- }
+}
+
+#footer-container span {
+    color: whitesmoke;
+}
+
+/*
+ For bigger screens
+ */
+@media screen and (min-width: 1920px) {
+    #content-container {
+        height: 109vh;
+    }
+
+    .pagination {
+        margin-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #banner-container {
+        height: 174px;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 68px;
+    }
+
+    #nav-bar a {
+        font-size: 19px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #content-container {
+        width: 43vh;
+        height: 434vh;
+    }
+
+    .pagination {
+        width: 239px;
+        margin-bottom: 15px;
+    }
+
+    .pagination a {
+        font-size: 13px;
+    }
+
+    .active {
+        color: #8f86f3;
+    }
+
+    #footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 43px;
+        background-color: #6d6d6d;
+
+    }
+
+    #footer-container span {
+        color: whitesmoke;
+
+    }
+}
