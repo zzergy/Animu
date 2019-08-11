@@ -13,9 +13,6 @@ body {
     font-family: Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, Sans-Serif;
 }
 
-/*
-Styles for the default resolution
- */
 #main-container {
     display: flex;
     flex-direction: column;
@@ -74,7 +71,7 @@ Styles for the default resolution
     align-content: space-around;
     align-self: center;
     width: 141vh;
-    height: 128vh;
+    height: 106vh;
 
 }
 
@@ -87,7 +84,7 @@ Styles for the default resolution
 .pagination {
     align-self: center;
     width: 352px;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 }
 
 .pagination a {
@@ -113,5 +110,59 @@ Styles for the default resolution
 
 #footer-container span {
     color: whitesmoke;
+}
+
+@media screen and (max-width: 375px) {
+    #content-container {
+        width: 68vh;
+        height: 325vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #content-container {
+        width: 68vh;
+        height: 297vh;
+    }
+
+    #nav-bar a {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 19px;
+
+    }
+
+    #banner-container {
+        height: 357px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #content-container {
+        height: 121vh;
+        width: 60vh;
+    }
+
+    #banner-container {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #content-container {
+        height: 91vh;
+        width: 118vh;
+    }
+
+    .pagination {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    #content-container {
+        height: 133vh;
+        width: 155vh;
+    }
 }
 
