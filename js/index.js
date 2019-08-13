@@ -11,7 +11,7 @@ window.onload = function () {
 
     function stickyNav() {
         if (window.pageYOffset >= sticky) {
-            mainContainerElement.style.paddingTop = '48px';
+            mainContainerElement.style.paddingTop = navigationBar.offsetHeight + 'px';
             navigationBar.classList.add('sticky');
         } else {
             navigationBar.classList.remove('sticky');
