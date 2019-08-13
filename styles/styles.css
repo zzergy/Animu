@@ -16,8 +16,8 @@ body {
 #main-container {
     display: flex;
     flex-direction: column;
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
@@ -39,7 +39,6 @@ body {
     list-style-type: none;
     height: 58px;
     background-color: #C0CDD6;
-    box-shadow: 0 0 38px -18px rgba(23, 23, 23, 1);
 }
 
 #nav-bar a {
@@ -61,12 +60,14 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0 0 38px -18px rgba(23, 23, 23, 1);
 }
 
 #content-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
     flex-wrap: wrap;
     align-content: space-around;
     align-self: center;
@@ -84,7 +85,6 @@ body {
 .pagination {
     align-self: center;
     width: 352px;
-    margin-bottom: 22px;
 }
 
 .pagination a {
@@ -114,36 +114,32 @@ body {
 
 @media screen and (max-width: 1920px) {
     #content-container {
-        height: 105vh;
-        width: 144vh;
+        height: 110vh;
+        width: 129vh;
     }
 }
 
 @media screen and (max-width: 1440px) {
     #content-container {
-        height: 129vh;
-        width: 157vh;
-    }
-
-    .pagination {
-        margin-bottom: 20px;
+        height: 142vh;
+        width: 155vh;
     }
 }
 
 @media screen and (max-width: 800px) {
     #content-container {
-        height: 121vh;
+        height: 131vh;
         width: 60vh;
     }
 
     #banner-container {
-        height: 480px;
+        height: 388px;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 414px) {
     #content-container {
-        width: 68vh;
+        width: 56vh;
         height: 407vh;
     }
 
@@ -151,17 +147,37 @@ body {
         padding-left: 0;
         padding-right: 0;
         font-size: 19px;
-
     }
 
     #banner-container {
-        height: 357px;
+        height: 269px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
     #content-container {
-        width: 68vh;
-        height: 444vh;
+        width: 41vh;
+        height: 450vh;
+    }
+
+    #banner-container {
+        height: 229px;
+    }
+
+    #nav-bar a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) and (height: 812px) {
+    #content-container {
+    height: 386vh;
+    }
+}
+
+@media (max-width: 320px) {
+    #content-container {
+        width: 276px;
+        height: 550vh;
     }
 }
