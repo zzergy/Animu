@@ -75,9 +75,26 @@ body {
 }
 
 .anime-listing {
+    display: flex;
+    flex-direction: column;
+
     border: solid crimson;
     width: 372px;
     height: 505px;
+}
+
+.listing-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.listing-span {
+    position: absolute;
+}
+
+.listing-button {
+    position: absolute;
 }
 
 .pagination {
@@ -103,36 +120,36 @@ body {
     justify-content: center;
     height: 43px;
     background-color: #6d6d6d;
-
 }
 
 #footer-container span {
     color: whitesmoke;
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1920px) {
     #content-container {
         width: 1251px;
         height: 1266px;
     }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
     #content-container {
         height: 1216px;
     }
 }
 
 @media (max-width: 800px) {
-     #content-container {
-         width: 769px;
-         height: 1626px;
-     }
+    #content-container {
+        width: 769px;
+        height: 1626px;
+    }
 
     .anime-listing {
         width: 331px;
         height: 468px;
     }
+
     #banner-container {
         height: 417px;
     }
