@@ -125,7 +125,7 @@ body {
 
 @media (max-width: 800px) {
      #content-container {
-         width: 784px;
+         width: 769px;
          height: 1626px;
      }
 
@@ -140,7 +140,7 @@ body {
 
 @media (max-width: 414px) {
     #content-container {
-        width: 660px;
+        width: 361px;
         height: 3192px;
     }
 
