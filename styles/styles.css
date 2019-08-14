@@ -67,19 +67,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
     flex-wrap: wrap;
     align-content: space-around;
     align-self: center;
-    width: 141vh;
-    height: 106vh;
-
+    width: 1303px;
+    height: 1274px;
 }
 
 .anime-listing {
     border: solid crimson;
-    width: 350px;
-    height: 446px;
+    width: 372px;
+    height: 505px;
 }
 
 .pagination {
@@ -112,72 +110,47 @@ body {
     color: whitesmoke;
 }
 
-@media screen and (max-width: 1920px) {
+@media (max-width: 1920px){
     #content-container {
-        height: 110vh;
-        width: 129vh;
+        width: 1251px;
+        height: 1266px;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media (max-width: 1440px){
     #content-container {
-        height: 142vh;
-        width: 155vh;
+        height: 1216px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
+     #content-container {
+         width: 784px;
+         height: 1626px;
+     }
+
+    .anime-listing {
+        width: 331px;
+        height: 468px;
+    }
+    #banner-container {
+        height: 417px;
+    }
+}
+
+@media (max-width: 414px) {
     #content-container {
-        height: 131vh;
-        width: 60vh;
+        width: 660px;
+        height: 3192px;
     }
 
     #banner-container {
-        height: 388px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    #content-container {
-        width: 56vh;
-        height: 407vh;
+        height: 251px;
     }
 
     #nav-bar a {
         padding-left: 0;
         padding-right: 0;
-        font-size: 19px;
-    }
-
-    #banner-container {
-        height: 269px;
-    }
-}
-
-@media (max-width: 375px) {
-    #content-container {
-        width: 41vh;
-        height: 450vh;
-    }
-
-    #banner-container {
-        height: 229px;
-    }
-
-    #nav-bar a {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 375px) and (height: 812px) {
-    #content-container {
-    height: 386vh;
-    }
-}
-
-@media (max-width: 320px) {
-    #content-container {
-        width: 276px;
-        height: 550vh;
+        font-size: 17px;
     }
 }
