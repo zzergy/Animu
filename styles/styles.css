@@ -77,24 +77,16 @@ body {
 .anime-listing {
     display: flex;
     flex-direction: column;
-
+    background-size: cover;
     border: solid crimson;
     width: 372px;
     height: 505px;
 }
 
-.listing-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
 .listing-span {
-    position: absolute;
 }
 
 .listing-button {
-    position: absolute;
 }
 
 .pagination {
