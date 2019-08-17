@@ -1,0 +1,36 @@
+.listing-transition {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.listing-transition:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+.listing-span {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 34px;
+    text-shadow: 3px 3px 4px rgba(118, 118, 118, 0.75);
+}
+
+.listing-button {
+    width: 127px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #c98f8f;
+    color: white;
+    font-size: 17px;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+.listing-button:hover {
+    cursor: pointer;
+}
