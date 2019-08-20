@@ -26,6 +26,10 @@ window.onload = function () {
     for (let i = 1; i < allNavigationBarButtons.length; i++) {
         allNavigationBarButtons[i].addEventListener('click', function (event) {
             //TODO Make it so that when a link is active the color of the button in the nav bar is changed.
+            const previousActiveButton = document.querySelector('.nav-active');
+            previousActiveButton.classList.remove('nav-active');
+            this.classList.add('nav-active');
+
 
             //Disables "a" tag default click behaviour. It doesn't redirect.
             event.preventDefault();

@@ -57,6 +57,10 @@ body {
 
 }
 
+#nav-bar .nav-active {
+    color: #972d37;
+}
+
 .sticky {
     position: fixed;
     top: 0;
