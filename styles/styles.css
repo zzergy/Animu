@@ -68,7 +68,7 @@ body {
 }
 
 #nav-bar a:hover {
-    color: #D11117;
+    color: #a22d37;
 
 }
 
@@ -115,10 +115,6 @@ body {
     text-decoration: none;
     border: 1px solid #939393;
     float: left;
-}
-
-.active {
-    color: #8f86f3;
 }
 
 #footer-container {

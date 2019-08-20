@@ -1,7 +1,7 @@
 .listing-transition {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -24,11 +24,12 @@
     width: 127px;
     height: 50px;
     border-radius: 5px;
-    background-color: #c98f8f;
+    background-color: #972d37;
     color: white;
     font-size: 17px;
     border: none;
     transition-duration: 0.5s;
+    margin-top: 37px;
 }
 
 .listing-button:hover {
