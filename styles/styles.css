@@ -10,7 +10,22 @@ html {
 
 body {
     /*font-family: sans-serif;*/
-    font-family: Rubik, Lato, lucida grande, lucida sans unicode, Tahoma, Sans-Serif;
+    font-family: popRegular, Sans-Serif, serif;
+}
+
+@font-face {
+    font-family: popMedium;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: popLight;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: popRegular;
+    src: url("../fonts/Poppins-Regular.ttf");
 }
 
 #main-container {
