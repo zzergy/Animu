@@ -1,3 +1,14 @@
+#anime-listing-container {
+    /*border: solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-self: center;
+    height: 1212px;
+}
+
 .listing-transition {
     display: flex;
     flex-direction: column;

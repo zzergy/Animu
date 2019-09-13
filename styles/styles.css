@@ -85,14 +85,10 @@ body {
 }
 
 #content-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-self: center;
+    /*border: solid black;*/
+    margin:0 auto;
     width: 1303px;
-    height: 1274px;
+    height: 1219px;
 }
 
 .anime-listing {
@@ -130,48 +126,48 @@ body {
     color: whitesmoke;
 }
 
-@media (max-width: 1920px) {
-    #content-container {
-        width: 1251px;
-        height: 1266px;
-    }
-}
+/*@media (max-width: 1920px) {*/
+/*    #content-container {*/
+/*        width: 1251px;*/
+/*        height: 1266px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 1440px) {
-    #content-container {
-        height: 1216px;
-    }
-}
+/*@media (max-width: 1440px) {*/
+/*    #content-container {*/
+/*        height: 1216px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 800px) {
-    #content-container {
-        width: 769px;
-        height: 1626px;
-    }
+/*@media (max-width: 800px) {*/
+/*    #content-container {*/
+/*        width: 769px;*/
+/*        height: 1626px;*/
+/*    }*/
 
-    .anime-listing {
-        width: 331px;
-        height: 468px;
-    }
+/*    .anime-listing {*/
+/*        width: 331px;*/
+/*        height: 468px;*/
+/*    }*/
 
-    #banner-container {
-        height: 417px;
-    }
-}
+/*    #banner-container {*/
+/*        height: 417px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 414px) {
-    #content-container {
-        width: 361px;
-        height: 3192px;
-    }
+/*@media (max-width: 414px) {*/
+/*    #content-container {*/
+/*        width: 361px;*/
+/*        height: 3192px;*/
+/*    }*/
 
-    #banner-container {
-        height: 251px;
-    }
+/*    #banner-container {*/
+/*        height: 251px;*/
+/*    }*/
 
-    #nav-bar a {
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 17px;
-    }
-}
+/*    #nav-bar a {*/
+/*        padding-left: 0;*/
+/*        padding-right: 0;*/
+/*        font-size: 17px;*/
+/*    }*/
+/*}*/
