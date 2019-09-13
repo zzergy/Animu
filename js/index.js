@@ -18,14 +18,14 @@ window.onload = function () {
             mainContainerElement.style.paddingTop = '0';
         }
     }
-    //SPA
+    //SPA Single page Layout
     const allNavigationBarButtons = document.querySelectorAll('#nav-bar > li > a');
     const contentContainerElement = document.getElementById('content-container');
     const requestUtil = new RequestUtil();
 
     for (let i = 1; i < allNavigationBarButtons.length; i++) {
         allNavigationBarButtons[i].addEventListener('click', function (event) {
-            //TODO Make it so that when a link is active the color of the button in the nav bar is changed.
+            //Active button
             const previousActiveButton = document.querySelector('.nav-active');
             previousActiveButton.classList.remove('nav-active');
             this.classList.add('nav-active');
