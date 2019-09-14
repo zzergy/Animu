@@ -85,7 +85,7 @@ body {
 }
 
 #content-container {
-    border: solid black;
+    /*border: solid black;*/
     margin:0 auto;
     width: 1303px;
     height: 100%;

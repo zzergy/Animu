@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Homepage UI, Navigation Bar Update">
+    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/wallpapers.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fanArt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,14 +21,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1P19hTIeR16m490I2e4w0oQrFGN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,9 +50,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zergy\Desktop\Front-end Programming\Animu\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZERG\Desktop\Programing\Animu\html" />
     </key>
@@ -62,7 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Animu/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -72,6 +88,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,6 +111,12 @@
       <workItem from="1565176484517" duration="7117000" />
       <workItem from="1565252792468" duration="7753000" />
       <workItem from="1565347857722" duration="1312000" />
+      <workItem from="1566054979244" duration="7352000" />
+      <workItem from="1566290103018" duration="9934000" />
+      <workItem from="1566325585212" duration="6191000" />
+      <workItem from="1568134271171" duration="313000" />
+      <workItem from="1568214066152" duration="678000" />
+      <workItem from="1568456279291" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="Navigation bar Update">
       <created>1565083787179</created>
@@ -153,7 +181,77 @@
       <option name="project" value="LOCAL" />
       <updated>1565272645602</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Thumbnails added to the HomePage">
+      <created>1566061719373</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566061719373</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Thumbnails hover functionality">
+      <created>1566061767031</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566061767031</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Font change">
+      <created>1566311548488</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566311548490</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Anime listing update">
+      <created>1566311681383</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566311681383</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Font change">
+      <created>1566312108877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566312108877</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Active Navigation bar">
+      <created>1566312414020</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566312414020</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Font change">
+      <created>1566312491098</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566312491098</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added Font Folder &amp; minor changes">
+      <created>1566312640143</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1566312640143</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Navigation Bar Update">
+      <created>1566378908202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566378908202</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add content in site info page">
+      <created>1568457504276</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568457504276</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +279,14 @@
     <MESSAGE value="Navigation Bar tweaks" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Homepage UI, Navigation Bar Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homepage UI, Navigation Bar Update" />
+    <MESSAGE value="Thumbnails added to the HomePage" />
+    <MESSAGE value="Thumbnails hover functionality" />
+    <MESSAGE value="Anime listing update" />
+    <MESSAGE value="Active Navigation bar" />
+    <MESSAGE value="Font change" />
+    <MESSAGE value="Added Font Folder &amp; minor changes" />
+    <MESSAGE value="Navigation Bar Update" />
+    <MESSAGE value="Add content in site info page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add content in site info page" />
   </component>
 </project>
