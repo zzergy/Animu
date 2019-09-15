@@ -1,4 +1,4 @@
-#site-info {
+#site-info-container {
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -8,6 +8,7 @@
 }
 
 #site-info h1 {
+    font-family: popLight,Sans-Serif, serif;
     text-align: center;
 }
 
