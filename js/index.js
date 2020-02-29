@@ -1,6 +1,7 @@
 import {RequestUtil} from "./requestUtil.js";
 
 window.onload = function () {
+
 //Sticky navigation bar functionality.
     window.onscroll = function () {
         stickyNav()
@@ -18,12 +19,21 @@ window.onload = function () {
             mainContainerElement.style.paddingTop = '0';
         }
     }
+
     //SPA Single page Layout
     const allNavigationBarButtons = document.querySelectorAll('#nav-bar > li > a');
     const contentContainerElement = document.getElementById('content-container');
     const requestUtil = new RequestUtil();
 
-    for (let i = 1; i < allNavigationBarButtons.length; i++) {
+    function loadContentInContainer(pageName, requestUtil, contentContainerElement) {
+        requestUtil.getHTML(pageName + ".html", function (receivedHTML) {
+            contentContainerElement.innerHTML = receivedHTML;
+        });
+    }
+
+    loadContentInContainer("anime-listing", requestUtil, contentContainerElement);
+
+    for (let i = 0; i < allNavigationBarButtons.length; i++) {
         allNavigationBarButtons[i].addEventListener('click', function (event) {
             //Active button
             const previousActiveButton = document.querySelector('.nav-active');

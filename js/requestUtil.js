@@ -6,6 +6,7 @@ export class RequestUtil {
      * @param callback - function that executes after the HTML is gotten. The first parameter
      * of this function is the acquired HTML
      */
+
     getHTML(url, callback) {
         const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
