@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="">
+    <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Add Anime Wiki content for Darling in the Franxx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/wallpapers.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fanArt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/banner-final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blackButlerThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/claymoreThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dGrayManThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/darlingInTheFranxxThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/deathParadeThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fmaThumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/site-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/site-info.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +47,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhoneContacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Animations-study/NightMode" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -116,7 +121,11 @@
       <workItem from="1566325585212" duration="6191000" />
       <workItem from="1568134271171" duration="313000" />
       <workItem from="1568214066152" duration="678000" />
-      <workItem from="1568456279291" duration="1302000" />
+      <workItem from="1568456279291" duration="3431000" />
+      <workItem from="1568473921217" duration="14312000" />
+      <workItem from="1570025123947" duration="355000" />
+      <workItem from="1570982015983" duration="39000" />
+      <workItem from="1571043067433" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="Navigation bar Update">
       <created>1565083787179</created>
@@ -251,7 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568457504276</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change the wallpaper html file name to FanArt, change the nav bar name to Fan Art">
+      <created>1568457851882</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568457851882</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix bug with banner image">
+      <created>1568458165397</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568458165397</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Anime Wiki content for Darling in the Franxx">
+      <created>1568533851240</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1568533851241</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +317,9 @@
     <MESSAGE value="Added Font Folder &amp; minor changes" />
     <MESSAGE value="Navigation Bar Update" />
     <MESSAGE value="Add content in site info page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add content in site info page" />
+    <MESSAGE value="Change the wallpaper html file name to FanArt, change the nav bar name to Fan Art" />
+    <MESSAGE value="Fix bug with banner image" />
+    <MESSAGE value="Add Anime Wiki content for Darling in the Franxx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Anime Wiki content for Darling in the Franxx" />
   </component>
 </project>
