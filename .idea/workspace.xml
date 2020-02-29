@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07d0b19f-b7e6-4c24-b3b3-7cebf571cfd0" name="Default" comment="Add Anime Wiki content for Darling in the Franxx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/anime-wiki.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/anime-wiki.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/site-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/site-info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <workItem from="1570025123947" duration="355000" />
       <workItem from="1570982015983" duration="39000" />
       <workItem from="1571043067433" duration="88000" />
-      <workItem from="1582997935459" duration="1328000" />
+      <workItem from="1582997935459" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="Navigation bar Update">
       <created>1565083787179</created>
