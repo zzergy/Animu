@@ -82,6 +82,10 @@ align-content: space-around;
     height: 498px;
 }
 
+.char-full-body img {
+    object-fit: contain;
+}
+
 .char-story {
     width: 665px;
     height: 498px;
