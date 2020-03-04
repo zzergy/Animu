@@ -64,7 +64,7 @@ body {
     color: #242424;
     text-decoration: none;
     outline: none;
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
 }
 #nav-bar a:hover {
     border-bottom: 2px solid #a22d37;
@@ -85,7 +85,6 @@ body {
 }
 
 #content-container {
-    border: solid black;
     margin:0 auto;
     width: 1303px;
     height: fit-content;
