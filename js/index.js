@@ -47,6 +47,7 @@ window.onload = function () {
             const url = this.href;
             requestUtil.getHTML(url, function (receivedHTML) {
                 contentContainerElement.innerHTML = receivedHTML;
+                window.scrollTo(0,501);
             });
         });
     }
